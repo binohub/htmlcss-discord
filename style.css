@@ -1,32 +1,33 @@
-/* generics */
-
-* {
+/*! ##### GENERICS ##### */
+* 
+{
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
 }
 
-body {
+body 
+{
   font-family: sans-serif;
 }
 
-/* utilities */
-
-.container {
+/*! ###### UTILITY ##### */
+.container 
+{
   max-width: 1200px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
-.container-section {
+.container-section 
+{
   max-width: 1200px;
   margin: 0 auto;
   display: flex;
 }
-
-.container-section-column {
+.container-section-column 
+{
   max-width: 1200px;
   margin: 0 auto;
   display: flex;
@@ -34,38 +35,22 @@ body {
   align-items: center;
 }
 
-.jumbo {
-  max-width: 1200px;
-  margin: 0 auto;
-  width: 50%;
-}
-
-.content {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.bg-gray {
+.bg-gray 
+{
   background-color: #f6f6f6;
 }
 
-
-
-
-
-/* content */
-header {
+/*! ##### HEADER ###### */
+header 
+{
   background-color: rgb(49, 97, 224);
-
 }
 
-.top-header {
+.top-header 
+{
   height: 80px;
   line-height: 80px;
 }
-
 .div-header-logo {
   width: 20%;
 }
@@ -81,13 +66,11 @@ header {
 .div-nav {
   width: 70%;
 }
-
 .top-header nav {
   vertical-align: top;
   display: inline-block;
   text-align: center;
 }
-
 .top-header li {
   display: inline-block;
 }
@@ -95,18 +78,15 @@ header {
 .top-header .btn {
   vertical-align: middle;
 }
-
 .top-header li a {
   color: white;
   margin: 0 30px;
   text-decoration: none;
 }
-
 .top-header li a:hover {
   text-decoration: underline;
 }
-
-.login {
+.div-login {
   width: 10%;
   display: flex;
   justify-content: flex-end;
@@ -132,12 +112,10 @@ header {
   line-height: 60px;
   font-size: 1.2rem;
 }
-
 .dark-btn {
   background-color: black;
   color: white;
 }
-
 .blue-btn {
   background-color: rgb(143, 160, 225);
   color: white;
@@ -151,7 +129,6 @@ header {
 .bottom-header {
   background-image: url("../img/jumbo.png");
   background-size: cover;
-  position: relative;
   text-align: center;
   color: white;
   height: 500px;
@@ -167,6 +144,12 @@ header {
 .bottom-header p {
   font-size: 21px;
   line-height: 30px;
+}
+.jumbo 
+{
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 50%;
 }
 
 section {
